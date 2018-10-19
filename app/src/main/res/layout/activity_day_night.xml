@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DayNight"
+    android:orientation="vertical"
+    android:background="?attr/backgroundcolor"
+    android:padding="24dp">
+
+    
+    <android.support.v7.widget.CardView
+        app:cardBackgroundColor="?attr/cardbackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="Super Fly"
+                android:textStyle="bold"
+                android:textColor="?attr/textcolor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/textcolor"
+                android:text="Lorem ipsum dolor sit amet, no eos nihil albucius, sumo prima fabellas mel ea. No dico civibus pro. Tollit essent utroque duo ea. Id cum putent platonem deterruisset, cu cetero consetetur duo. Ut perpetua iudicabit incorrupte vim, eum eirmod rationibus incorrupte no, electram vulputate percipitur his ex."
+                android:layout_marginTop="8dp"/>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+    
+    <android.support.v7.widget.CardView
+        app:cardBackgroundColor="?attr/cardbackground"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="?attr/textcolor"
+                android:text="Some components"
+                />
+            
+            <RadioButton
+                android:textColor="?attr/textcolor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Radio Button"
+                android:layout_marginTop="5dp"
+                android:buttonTint="?attr/tintcolor"/>
+
+            <CheckBox
+                android:textColor="?attr/textcolor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Check Box"
+                android:buttonTint="?attr/tintcolor"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button"
+                android:background="?attr/buttoncolor"
+                android:textColor="#fff"
+                />
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        app:cardBackgroundColor="?attr/cardbackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enable Night Mode"
+                android:textStyle="bold"
+                android:textColor="?attr/textcolor"/>
+
+            <Switch
+                android:id="@+id/myswitch"
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Night Mode"
+                android:textColor="?attr/textcolor"/>
+
+
+
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
